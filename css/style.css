@@ -1,24 +1,40 @@
-  body {
-    background-color: lightblue;
+body {
+    background-color:#F5C6EC;
   }
- 
 header {
   background-color:whitesmoke;
   border: 1px solid black;
   text-align: left;
+  padding: 30px;
+  vertical-align: middle;
 }
+.content {
+  display: inline-block;
+  vertical-align: top;
+  }
+
+  .nav {
+    display: inline-block;
+    vertical-align: top;
+    width: 69%;
+    padding: 1%;
+
+  }
+ul {
+width: 50%;
+margin-left: auto;
+
+  }
 .logo {
   width: 23%;
   padding: 1%;
 }
-.nav {
-  width: 69%;
-  padding: 1%;
-}
+
 footer {
   background-color:whitesmoke;
   border: 1px solid black;
   text-align: left;
+  padding: 30px;
 }
 .inline-block {
   display: inline-block;
@@ -38,28 +54,13 @@ display: block;
   margin-left: auto;
   margin-right: auto;
   width: 9%;
-}
-container {
-  text-align: left;
-  display: inline-block;
-  vertical-align: top;
-}
 
+}
 .flexContainer {
-  display: flex;
-  flex-direction: row;
-  width: 33%;
-  margin: 50px;
-  }
+display: flex;
 
-#workGrid {
-  display: grid;
-  flex-direction: row;
- justify-content: left;
-border: 5px solid black;
 }
 
-
-
-
- 
+.myDiv {
+display: flex;
+}
